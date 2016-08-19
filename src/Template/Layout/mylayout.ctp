@@ -63,20 +63,23 @@
 				</div>
 				
 				<div class="modal-body">
-					<form role="form">
+					<form role="form" method="post" action="./mylayout/sendForm">
 						<div class="form-group">
 							<label class="sr-only" for="Username">Username</label>
-							<input type="text" class="form-control" placeholder="Хэрэглэгчийн нэр">
+							<input type="text" name="username" class="form-control" placeholder="Хэрэглэгчийн нэр">
 						</div>
 						<div class="form-group">
 							<label class="sr-only" for="Password">Password</label>
-							<input type="password" class="form-control" placeholder="Нууц үг">
+							<input type="password" name="password" class="form-control" placeholder="Нууц үг">
+						</div>
+						<div class="form-group">
+							<input type="submit" class="form-control" name="Нэвтрэх">
 						</div>
 					</form>
 				</div>
 				
 				<div class="modal-footer">
-					<button class="btn btn-primary btn-block">Нэвтрэх</button>
+					
 				</div>
 			</div>
 		</div>

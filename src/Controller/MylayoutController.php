@@ -12,9 +12,16 @@ class MylayoutController extends AppController
         $this->viewBuilder()->layout('mylayout');
     }
      
-    public function index()
+	public function index()
     {
        	
+    }
+	
+    public function sendForm()
+    {
+		$username = $this->request->data('username');
+		$password = $this->request->data('password');
+		$this->set("username",$username);
     }
     
     public function question()
