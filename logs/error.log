@@ -271,3 +271,73 @@ Stack Trace:
 #2 {main}
 
 
+2016-08-21 15:15:54 Error: Fatal Error (4): syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 57]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 15:15:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-21 15:44:14 Error: Fatal Error (4): syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\koosenclub\src\Template\Users\add.ctp, line 4]
+Request URL: /koosenclub/users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 15:44:14 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /koosenclub/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-21 17:42:25 Error: Fatal Error (4): syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 58]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 17:42:25 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-21 17:44:33 Error: Fatal Error (4): syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 58]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-21 17:44:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''loginAction'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

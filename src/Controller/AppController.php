@@ -43,6 +43,24 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+
+        //B* added
+        /*
+        $this->loadComponent('Auth',[
+                'authenticate' => [
+                    'Form' => [
+                        'fields' => [
+                            'email' => 'email',
+                            'password' => 'password'
+                        ]
+                    ]
+                ],
+                'loginAction' => [
+                    'controller' => 'users',
+                    'action' => 'add'
+                ]
+            ]); 
+        */
     }
 
     /**
@@ -51,6 +69,8 @@ class AppController extends Controller
      * @param \Cake\Event\Event $event The beforeRender event.
      * @return void
      */
+
+    /*
     public function beforeRender(Event $event)
     {
         if (!array_key_exists('_serialize', $this->viewVars) &&
@@ -58,5 +78,5 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
-    }
+    }*/
 }
