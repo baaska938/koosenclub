@@ -341,3 +341,566 @@ Stack Trace:
 #2 {main}
 
 
+2016-08-22 02:07:04 Error: Fatal Error (4): syntax error, unexpected '=', expecting ']' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 74]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 02:07:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ']'
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 02:16:53 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 87]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 02:16:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 02:24:08 Error: Fatal Error (4): syntax error, unexpected ''placeholder'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 83]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 02:24:08 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''placeholder'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 83)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 19:47:58 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::set() in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 140]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 19:47:58 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::set()
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 140)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 19:52:29 Error: Fatal Error (4): syntax error, unexpected '/' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\default.ctp, line 45]
+Request URL: /koosenclub/users/add
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 19:52:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '/'
+Request URL: /koosenclub/users/add
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 20:12:30 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 68]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 20:12:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 68)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 20:17:54 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 68]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 20:17:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 68)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 20:21:00 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-22 20:21:00 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>'
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-22 21:28:07 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-22 21:28:07 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-22 21:28:16 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-22 21:28:16 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:28:05 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\xampp\htdocs\koosenclub\src\Controller\MylayoutController.php, line 20]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-24 14:28:05 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-24 14:30:52 Error: Fatal Error (4): syntax error, unexpected 'funciton' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-24 14:30:52 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'funciton' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 153)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-24 14:31:25 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Events, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:31:25 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:31:25 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:31:58 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:31:58 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:31:58 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:32:00 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:32:00 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:32:00 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:32:08 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Cake\Event\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:32:08 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:32:08 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:34:24 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:34:24 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:34:24 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:34:25 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:34:25 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:34:25 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:36:44 Warning: Warning (4096): Argument 1 passed to Cake\Controller\Controller::beforeFilter() must be an instance of Cake\Event\Event, none given, called in C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php on line 154 and defined in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Controller\Controller.php, line 749]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Controller\Controller::beforeFilter() - CORE\src\Controller\Controller.php, line 749
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 154
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:36:44 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:36:44 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:37:35 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:37:35 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:37:35 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:37:36 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:37:36 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:37:36 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:37:38 Warning: Warning (4096): Argument 1 passed to App\Controller\UsersController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 153]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::beforeFilter() - APP/Controller\UsersController.php, line 153
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-24 14:37:38 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-08-24 14:37:38 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-08-24 14:42:28 Error: Fatal Error (4): syntax error, unexpected 'Cake' (T_STRING) in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 5]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-24 14:42:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Cake' (T_STRING)
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

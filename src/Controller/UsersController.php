@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Users Controller
@@ -131,5 +132,26 @@ class UsersController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+
+    public function login(){
+        if($this->request->is('post')){
+            $user = $this->Auth->identify();
+            if($user){
+                $this->Auth->setUser($user); 
+                return $this->redirect(['controller' => 'mylayout','action' => 'question']);
+            }
+            //Bad login
+            $this->Flash->error('Incorrect login');
+        }
+    }
+
+    public function logout(){
+        $this->Flash->success('You are logged out');
+        return $this->redirect($this->Auth->logout());
+    }
+
+    public function beforeFilter(Event $event){
+        $this->Auth->allow('login');
     }
 }

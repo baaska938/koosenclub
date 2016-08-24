@@ -45,7 +45,6 @@
 			
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class=""><?= $this->Html->link(__('Add user for test',true),['controller' => 'users', 'action' => 'add', '_full' => true], array('style' => 'color:red;')); ?></li>
 					<li class=""><?= $this->Html->link('Коосэны тухай',['controller' => 'mylayout', 'action' => 'index', '_full' => true]); ?></li>
 					<li class=""><?= $this->Html->link('Асуулт хариулт',['controller' => 'mylayout', 'action' => 'question', '_full' => true]); ?></li>
 					<li class=""><?= $this->Html->link('Гишүүдийн нийтлэл',['controller' => 'mylayout', 'action' => 'index', '_full' => true]); ?></li>
@@ -64,11 +63,33 @@
 				</div>
 				
 				<div class="modal-body">
-					<?= $this->Form->create()?>
+
+					<?= $this->Form->create(false, array('url' => array('controller' => 'users','action'=>'login')))
+					?>
 						<?= $this->Form->input('email'); ?>
-						<?= $this->Form->input('password',array('type' => 'password')); ?>
-						<?= $this->Form->submit('ログイン',array('class' => 'button')); ?>
+						<?= $this->Form->input('password'); ?>
+						<?= $this->Form->button('Login'); ?>
+						<!--<?= $this->Form->input('email', array(
+						    'label' => [
+						        'class' => 'sr-only',
+						        'text' => 'Username'],
+						    'class' => 'form-control',
+						    'placeholder' => 'И-майл'
+						));?>
+
+						<?= $this->Form->input('password', array(
+						    'label' => [
+						        'class' => 'sr-only',
+						        'text' => 'Username'],
+						    'class' => 'form-control',
+
+						    'placeholder' => 'Нууц үг'
+						));?>
+						<?= $this->Form->button('Login', array(
+						    'class' => 'form-control btn btn-primary'
+						));?>-->
 					<?= $this->Form->end()?>
+						
 					
 					<!--
 					<form role="form" method="post" action="./mylayout/sendForm">
@@ -88,7 +109,7 @@
 				</div>
 				
 				<div class="modal-footer">
-					
+						
 				</div>
 			</div>
 		</div>

@@ -5,7 +5,7 @@ use App\Controller\AppController;
  
 class MylayoutController extends AppController
 {
- 
+    
     public function initialize()
     {
         parent::initialize();
@@ -14,14 +14,7 @@ class MylayoutController extends AppController
      
 	public function index()
     {
-       	
-    }
-	
-    public function sendForm()
-    {
-		$username = $this->request->data('username');
-		$password = $this->request->data('password');
-		$this->set("username",$username);
+        
     }
     
     public function question()

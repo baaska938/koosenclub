@@ -45,22 +45,23 @@ class AppController extends Controller
         $this->loadComponent('Flash');
 
         //B* added
-        /*
+        //$this->loadComponent('Auth');
+        
         $this->loadComponent('Auth',[
                 'authenticate' => [
                     'Form' => [
                         'fields' => [
-                            'email' => 'email',
+                            'username' => 'email',
                             'password' => 'password'
                         ]
                     ]
                 ],
                 'loginAction' => [
-                    'controller' => 'users',
-                    'action' => 'add'
+                    'controller' => 'mylayout',
+                    'action' => 'index'
                 ]
             ]); 
-        */
+        
     }
 
     /**
@@ -70,7 +71,7 @@ class AppController extends Controller
      * @return void
      */
 
-    /*
+    
     public function beforeRender(Event $event)
     {
         if (!array_key_exists('_serialize', $this->viewVars) &&
@@ -78,5 +79,5 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
-    }*/
+    }
 }
