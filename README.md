@@ -1,9 +1,4 @@
-# CakePHP Application Skeleton
-
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-
-Коосэн клубын веб хуудас хийх прожект [CakePHP](http://cakephp.org) 3.x.
+# Коосэн клубын веб хуудас хийх прожект
 
 Ашиглах үндсэн framework -> : [cakephp/cakephp](https://github.com/cakephp/cakephp).
 CSS framework -> : [bootstrap](https://www.bootstrap.com).
