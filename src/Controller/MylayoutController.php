@@ -21,4 +21,7 @@ class MylayoutController extends AppController
     {
     
     }
+    public function about(){
+        
+    }
 }

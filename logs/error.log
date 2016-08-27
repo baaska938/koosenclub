@@ -904,3 +904,2487 @@ Stack Trace:
 #2 {main}
 
 
+2016-08-27 13:06:58 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 8]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 13:06:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 13:12:44 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:12:53 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:13:30 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:16:12 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:18:33 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:22:19 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:22:52 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:01 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:09 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:12 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:23 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:39 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:52 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:23:57 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:24:14 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:24:21 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:25:21 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:27:27 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:27:46 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:38:25 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:54:40 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:54:42 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:55:02 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 13:55:11 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:28:16 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:28:24 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:28:28 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:29:42 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:39:56 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:40:22 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:40:42 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:41:12 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:41:48 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:41:56 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:01 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:07 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:36 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:42 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:42:50 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:45:56 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:46:08 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:46:48 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:47:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:48:06 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:48:37 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:48:42 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:49:06 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:49:12 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:49:55 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:50:12 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:50:14 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:50:37 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:51:06 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:51:23 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:51:34 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:55:52 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:56:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 14:56:24 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:01:24 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:01:55 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 12]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:01:55 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 15:02:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:03:18 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:05:11 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 12]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:05:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 15:05:31 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:05:40 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:06:18 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:06:30 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:06:53 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:07:07 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:08:26 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:08:38 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:08:48 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:09:04 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:11:01 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:11:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:11:22 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:12:11 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:12:34 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:12:49 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:12:57 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:13:01 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:13:04 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:13:08 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:13:11 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Layout\mylayout.ctp, line 71
+include - APP/Template\Layout\mylayout.ctp, line 71
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-08-27 15:34:18 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 4]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:34:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 15:34:31 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 4]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:34:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 15:56:54 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 15]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:56:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 15:57:02 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 15]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 15:57:02 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 16:59:07 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 118]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 16:59:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 118)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-27 16:59:14 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 118]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-27 16:59:14 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 118)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

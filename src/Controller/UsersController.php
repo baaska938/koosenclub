@@ -39,6 +39,12 @@ class UsersController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
+    public function initialize()
+    {
+        parent::initialize();
+        $this->viewBuilder()->layout('mylayout');
+    }
+    
     public function index()
     {
         $users = $this->paginate($this->Users);
@@ -146,12 +152,17 @@ class UsersController extends AppController
         }
     }
 
+    public function register(){
+
+    }
+
     public function logout(){
         $this->Flash->success('You are logged out');
         return $this->redirect($this->Auth->logout());
     }
 
     public function beforeFilter(Event $event){
-        $this->Auth->allow('login');
+        //$this->Auth->allow('login');
+        $this->Auth->allow();
     }
 }

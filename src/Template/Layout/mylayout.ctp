@@ -24,6 +24,7 @@
     </title>
     
 	<?= $this->Html->css('bootstrap.min.css');?>
+	<?= $this->Html->css('mycss.css');?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -63,34 +64,30 @@
 				</div>
 				
 				<div class="modal-body">
-
-					<?= $this->Form->create(false, array('url' => array('controller' => 'users','action'=>'login')))
-					?>
-						<?= $this->Form->input('email'); ?>
-						<?= $this->Form->input('password'); ?>
-						<?= $this->Form->button('Login'); ?>
-						<!--<?= $this->Form->input('email', array(
-						    'label' => [
-						        'class' => 'sr-only',
-						        'text' => 'Username'],
-						    'class' => 'form-control',
-						    'placeholder' => 'И-майл'
-						));?>
-
-						<?= $this->Form->input('password', array(
-						    'label' => [
-						        'class' => 'sr-only',
-						        'text' => 'Username'],
-						    'class' => 'form-control',
-
-						    'placeholder' => 'Нууц үг'
-						));?>
-						<?= $this->Form->button('Login', array(
-						    'class' => 'form-control btn btn-primary'
-						));?>-->
-					<?= $this->Form->end()?>
-						
-					
+						<div class="row">
+								<?= $this->Form->create()?>
+									<div class="form-horizontal" style="margin:0 20px 0 20px">
+										<div class="form-group">
+											<label for="inputEmail" class="col-sm-3 control-label">И-мэйл</label>
+											<div class="col-sm-9">
+												<?= $this->Form->input('email', array('label' => false, 
+													'class' => 'form-control', 'id' => 'inputEmail')); ?>
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="inputEmail" class="col-sm-3 control-label">Нууц үг</label>
+											<div class="col-sm-9">
+												<?= $this->Form->input('password', array('label' => false
+													, 'class' => 'form-control', 'id' => 'inputPass')); ?>
+											</div>
+										</div>
+										<div class="form-group">
+										    <div class="col-sm-offset-3 col-sm-3">
+										      	<?= $this->Form->input('remember', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
+										    </div>
+										</div>
+									</div>	
+						</div>
 					<!--
 					<form role="form" method="post" action="./mylayout/sendForm">
 						<div class="form-group">
@@ -109,7 +106,18 @@
 				</div>
 				
 				<div class="modal-footer">
-						
+					<div class="row">
+						<div class="col-sm-offset-3 col-sm-6" style="text-align:center">
+							<?= $this->Form->button('Нэвртэх',array('class' => 'btn btn-primary')); ?>
+						</div>
+						<div class="col-sm-3" style="text-align:right">
+							<?= $this->Html->link(
+							    'Бүртгүүлэх',
+							    ['controller' => 'users', 'action' => 'register', '_full' => true]
+							);?>
+								<?= $this->Form->end()?>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -117,7 +125,7 @@
     
     <?= $this->fetch('content') ?>
     
-    <div class="navbar navbar-inverse navbar-static-bottom">
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
 		<div class="container">
 			<div class="navbar-text pull-left">
 				<p>Copyright &copy; Kosen club 2016</p>
