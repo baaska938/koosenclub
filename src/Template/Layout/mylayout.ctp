@@ -65,7 +65,9 @@
 				
 				<div class="modal-body">
 						<div class="row">
-								<?= $this->Form->create()?>
+								<?= $this->Form->create('users',[
+									'type' => 'post',
+									'url' => ['controller' => 'users','action' => 'login']])?>
 									<div class="form-horizontal" style="margin:0 20px 0 20px">
 										<div class="form-group">
 											<label for="inputEmail" class="col-sm-3 control-label">И-мэйл</label>
@@ -125,7 +127,7 @@
     
     <?= $this->fetch('content') ?>
     
-    <div class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="navbar navbar-inverse navbar-static-bottom">
 		<div class="container">
 			<div class="navbar-text pull-left">
 				<p>Copyright &copy; Kosen club 2016</p>

@@ -1,7 +1,9 @@
 <div class="container" style="padding-bottom: 30px">
 	<div class="row">
 		<div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> 
-			<?= $this->Form->create()?>
+			<?= $this->Form->create('users',[
+									'type' => 'post',
+									'url' => ['controller' => 'users','action' => 'login']])?>
 				<div class="form-horizontal">
 					<div class="form-group">
 						<label for="inputEmail" class="col-sm-4 control-label">И-мэйл</label>

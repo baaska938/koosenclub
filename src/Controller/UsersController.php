@@ -47,6 +47,8 @@ class UsersController extends AppController
     
     public function index()
     {
+        $this->viewBuilder()->layout('default');
+
         $users = $this->paginate($this->Users);
 
         $this->set(compact('users'));
@@ -62,6 +64,7 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+        $this->viewBuilder()->layout('default');
     	/*
         $user = $this->Users->get($id, [
             'contain' => ['Comments', 'Educations', 'Events', 'Posts', 'Profiles', 'Works']
@@ -103,6 +106,7 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->layout('default');
         $user = $this->Users->get($id, [
             'contain' => []
         ]);
@@ -162,7 +166,7 @@ class UsersController extends AppController
     }
 
     public function beforeFilter(Event $event){
-        //$this->Auth->allow('login');
-        $this->Auth->allow();
+        $this->Auth->allow('login');
+        //$this->Auth->allow();
     }
 }
