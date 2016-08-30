@@ -166,7 +166,7 @@ class UsersController extends AppController
     }
 
     public function beforeFilter(Event $event){
-        $this->Auth->allow('login');
-        //$this->Auth->allow();
+        //$this->Auth->allow('login');
+        $this->Auth->allow();
     }
 }
