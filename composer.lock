@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "faf89810a310ceeb8e655c1674e72b10",
-    "content-hash": "134aa856e7c89045d7b8ad503b26fa68",
+    "hash": "5799d19b81a8a08f611b24149387411b",
+    "content-hash": "baeb4589a55439e29a86e88f1bc3ad3e",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -125,6 +125,51 @@
                 "localization"
             ],
             "time": "2014-08-24 00:00:00"
+        },
+        {
+            "name": "cakephp/acl",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/acl.git",
+                "reference": "2ea8277dd60d3f03e4e6d5891d229c14fb331bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/acl/zipball/2ea8277dd60d3f03e4e6d5891d229c14fb331bb0",
+                "reference": "2ea8277dd60d3f03e4e6d5891d229c14fb331bb0",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^3.1.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "^2.0",
+                "phpunit/phpunit": ">= 4.2"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Acl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/acl/graphs/contributors"
+                }
+            ],
+            "description": "Acl Plugin for CakePHP 3.x framework",
+            "homepage": "http://cakephp.org",
+            "keywords": [
+                "acl",
+                "cakephp"
+            ],
+            "time": "2016-08-24 09:27:47"
         },
         {
             "name": "cakephp/cakephp",
@@ -816,6 +861,58 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-07-17 14:02:08"
+        },
+        {
+            "name": "xety/cake3-cookieauth",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Xety/Cake3-CookieAuth.git",
+                "reference": "45f9325a4e1d278a7862526f0b0080ca23531aff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Xety/Cake3-CookieAuth/zipball/45f9325a4e1d278a7862526f0b0080ca23531aff",
+                "reference": "45f9325a4e1d278a7862526f0b0080ca23531aff",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "php": ">=5.4.16"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "master-dev",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Xety\\Cake3CookieAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Xety",
+                    "email": "zoro.fmt@gmail.com",
+                    "homepage": "https://github.com/Xety"
+                }
+            ],
+            "description": "A simple Cake3 plugin to authenticate users with Cookies.",
+            "homepage": "https://github.com/Xety/Cake3-CookieAuth",
+            "keywords": [
+                "auth",
+                "authenticate",
+                "cake3",
+                "cakephp",
+                "cookie",
+                "login",
+                "plugin"
+            ],
+            "time": "2016-01-05 14:37:18"
         },
         {
             "name": "zendframework/zend-diactoros",

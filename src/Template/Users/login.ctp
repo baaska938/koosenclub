@@ -1,44 +1,43 @@
 <div class="container" style="padding-bottom: 30px">
 	<div class="row">
-		<div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> 
-			<?= $this->Form->create('users',[
-									'type' => 'post',
-									'url' => ['controller' => 'users','action' => 'login']])?>
-				<div class="form-horizontal">
-					<div class="form-group">
-						<label for="inputEmail" class="col-sm-4 control-label">И-мэйл</label>
-						<div class="col-sm-8">
-							<?= $this->Form->input('email', array('label' => false, 
-								'class' => 'form-control', 'id' => 'inputEmail')); ?>
-						</div>
-					</div>
-				
-					<div class="form-group">
-						<label for="inputEmail" class="col-sm-4 control-label">Нууц үг</label>
-						<div class="col-sm-8">
-							<?= $this->Form->input('password', array('label' => false
-								, 'class' => 'form-control', 'id' => 'inputPass')); ?>
-						</div>
-					</div>
-					<div class="form-group">
-					    <div class="col-sm-offset-4 col-sm-8">
-					      	<?= $this->Form->input('remember', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
-					    </div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-12" style="text-align:right">
-							<?= $this->Form->button('Нэвртэх',array('class' => 'btn btn-primary')); ?>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-12" style="text-align:right">
-							<?= $this->Html->link(
-							    'Бүртгүүлэх',
-							    ['controller' => 'users', 'action' => 'add', '_full' => true]
-							);?>
-						</div>
-					</div>
-				</div>	
+		<div class="col-sm-offset-1 col-sm-10"> 
+		<?= $this->Form->create()?>
+			<div class="col-sm-12"><h2>Нэвтрэх</h2></div>
+			<div class="col-sm-12" style="padding-bottom:20px"><h5>Бүртгүүлж амжаагүй бол <a href="#">энд</a> дарж бүртгүүлнэ үү!!</h5></div>
+
+
+			<div>
+			<div class="col-sm-6">
+				<div class="form-group">
+					<label for="inputUsername" class="col-sm-12 control-label" style="padding-left:0px">Хэрэглэгчийн нэр</label>
+					<?= $this->Form->input('username', array('label' => false, 
+						'class' => 'form-control', 'id' => 'inputUsername')); ?>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6">
+				<div class="form-group">
+					<label for="inputPass" class="col-sm-12 control-label" style="padding-left:0px">Нууц үг</label>
+					<?= $this->Form->input('password', array('label' => false
+						, 'class' => 'form-control', 'id' => 'inputPass')); ?>
+				</div>
+			</div>
+			</div>
+			
+			<div class="col-sm-12" style="text-align:right">
+				<a href="">Нууц үг ээ мартсан?</a>
+			</div>
+
+		    <div class="col-sm-12" style="text-align:right">
+		      	<?= $this->Form->input('remember_me', array('type' => 'checkbox','label' => array('class' => 'small_text','text'=>'Намайг сана'))); ?>
+
+		    </div>
+
+			<div class="col-sm-12 form-group" style="text-align:right">
+					<?= $this->Form->submit('Нэвртэх',array('class' => 'btn btn-primary')); ?>
+			</div>
+					
 			<?= $this->Form->end()?>
 			</div>
 	</div>

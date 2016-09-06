@@ -2,7 +2,6 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-use Cake\Auth\DefaultPasswordHasher;
 
 /**
  * User Entity
@@ -10,9 +9,16 @@ use Cake\Auth\DefaultPasswordHasher;
  * @property int $id
  * @property string $email
  * @property string $password
+ * @property int $group_id
  * @property \Cake\I18n\Time $created
+ * @property \Cake\I18n\Time $modified
  *
- * @property \App\Model\Entity\Photo $photo
+ * @property \App\Model\Entity\Comment[] $comments
+ * @property \App\Model\Entity\Education[] $educations
+ * @property \App\Model\Entity\Event[] $events
+ * @property \App\Model\Entity\Post[] $posts
+ * @property \App\Model\Entity\Profile[] $profiles
+ * @property \App\Model\Entity\Work[] $works
  */
 class User extends Entity
 {
@@ -40,8 +46,21 @@ class User extends Entity
         'password'
     ];
 
-    protected function _setPassword($password){
-        return (new DefaultPasswordHasher)->hash($password);
-
+    public function parentNode()
+    {
+        if (!$this->id) {
+            return null;
+        }
+        if (isset($this->group_id)) {
+            $groupId = $this->group_id;
+        } else {
+            $Users = TableRegistry::get('Users');
+            $user = $Users->find('all', ['fields' => ['group_id']])->where(['id' => $this->id])->first();
+            $groupId = $user->group_id;
+        }
+        if (!$groupId) {
+            return null;
+        }
+        return ['Groups' => ['id' => $groupId]];
     }
 }

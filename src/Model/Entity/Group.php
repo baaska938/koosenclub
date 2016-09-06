@@ -12,6 +12,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\Time $modified
  *
  * @property \App\Model\Entity\User[] $users
+ * @property \Acl\Model\Entity\Aro[] $aro
  */
 class Group extends Entity
 {
@@ -29,7 +30,7 @@ class Group extends Entity
         '*' => true,
         'id' => false
     ];
-
+    
     public function parentNode()
     {
         return null;

@@ -1366,5 +1366,106 @@
             "bake",
             "cakephp"
         ]
+    },
+    {
+        "name": "cakephp/acl",
+        "version": "0.2.2",
+        "version_normalized": "0.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cakephp/acl.git",
+            "reference": "2ea8277dd60d3f03e4e6d5891d229c14fb331bb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cakephp/acl/zipball/2ea8277dd60d3f03e4e6d5891d229c14fb331bb0",
+            "reference": "2ea8277dd60d3f03e4e6d5891d229c14fb331bb0",
+            "shasum": ""
+        },
+        "require": {
+            "cakephp/cakephp": "^3.1.0"
+        },
+        "require-dev": {
+            "cakephp/cakephp-codesniffer": "^2.0",
+            "phpunit/phpunit": ">= 4.2"
+        },
+        "time": "2016-08-24 09:27:47",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Acl\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CakePHP Community",
+                "homepage": "https://github.com/cakephp/acl/graphs/contributors"
+            }
+        ],
+        "description": "Acl Plugin for CakePHP 3.x framework",
+        "homepage": "http://cakephp.org",
+        "keywords": [
+            "acl",
+            "cakephp"
+        ]
+    },
+    {
+        "name": "xety/cake3-cookieauth",
+        "version": "v1.3",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Xety/Cake3-CookieAuth.git",
+            "reference": "45f9325a4e1d278a7862526f0b0080ca23531aff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Xety/Cake3-CookieAuth/zipball/45f9325a4e1d278a7862526f0b0080ca23531aff",
+            "reference": "45f9325a4e1d278a7862526f0b0080ca23531aff",
+            "shasum": ""
+        },
+        "require": {
+            "cakephp/cakephp": "~3.0",
+            "php": ">=5.4.16"
+        },
+        "require-dev": {
+            "cakephp/cakephp-codesniffer": "master-dev",
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2016-01-05 14:37:18",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Xety\\Cake3CookieAuth\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Xety",
+                "email": "zoro.fmt@gmail.com",
+                "homepage": "https://github.com/Xety"
+            }
+        ],
+        "description": "A simple Cake3 plugin to authenticate users with Cookies.",
+        "homepage": "https://github.com/Xety/Cake3-CookieAuth",
+        "keywords": [
+            "auth",
+            "authenticate",
+            "cake3",
+            "cakephp",
+            "cookie",
+            "login",
+            "plugin"
+        ]
     }
 ]

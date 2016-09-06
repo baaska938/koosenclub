@@ -72,7 +72,7 @@
 										<div class="form-group">
 											<label for="inputEmail" class="col-sm-3 control-label">И-мэйл</label>
 											<div class="col-sm-9">
-												<?= $this->Form->input('email', array('label' => false, 
+												<?= $this->Form->input('username', array('label' => false, 
 													'class' => 'form-control', 'id' => 'inputEmail')); ?>
 											</div>
 										</div>
@@ -85,7 +85,7 @@
 										</div>
 										<div class="form-group">
 										    <div class="col-sm-offset-3 col-sm-3">
-										      	<?= $this->Form->input('remember', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
+										      	<?= $this->Form->input('remember_me', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
 										    </div>
 										</div>
 									</div>	
@@ -110,7 +110,7 @@
 				<div class="modal-footer">
 					<div class="row">
 						<div class="col-sm-offset-3 col-sm-6" style="text-align:center">
-							<?= $this->Form->button('Нэвртэх',array('class' => 'btn btn-primary')); ?>
+							<?= $this->Form->submit('Нэвртэх',array('class' => 'btn btn-primary')); ?>
 						</div>
 						<div class="col-sm-3" style="text-align:right">
 							<?= $this->Html->link(
@@ -124,7 +124,7 @@
 			</div>
 		</div>
 	</div>
-    
+	<?= $this->Flash->render() ?>
     <?= $this->fetch('content') ?>
     
     <div class="navbar navbar-inverse navbar-static-bottom">

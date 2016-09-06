@@ -61,6 +61,9 @@ use Cake\Routing\DispatcherFactory;
 use Cake\Utility\Inflector;
 use Cake\Utility\Security;
 
+Plugin::load('Acl', ['bootstrap' => true]);
+Plugin::load('Xety/Cake3CookieAuth');
+
 /**
  * Read configuration file and inject configuration into various
  * CakePHP classes.
