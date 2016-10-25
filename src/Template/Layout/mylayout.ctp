@@ -33,30 +33,49 @@
 <body>
     <nav class="navbar navbar-default navbar-static-top">
 		<div class="container">
-			<button type="button" class="navbar-toggle"
-			data-toggle="collapse"
-			data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</button>
-			
-			<a class="navbar-brand" href="#">Коосэн клуб</a>
-			
-			<div class="navbar-collapse collapse">
+			<div class="nav navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Коосэн клуб</a>
+
+				
+				
+				
+			</div>
+
+			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li class=""><?= $this->Html->link('Коосэны тухай',['controller' => 'mylayout', 'action' => 'index', '_full' => true]); ?></li>
 					<li class=""><?= $this->Html->link('Асуулт хариулт',['controller' => 'mylayout', 'action' => 'question', '_full' => true]); ?></li>
 					<li class=""><?= $this->Html->link('Гишүүдийн нийтлэл',['controller' => 'mylayout', 'action' => 'index', '_full' => true]); ?></li>
-					<li class=""><a href="/#" class="btn btn-default" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> Нэвтрэх </a></li>
+					<?php if(!$loggedIn):?>
+						<a href="/#" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> Нэвтрэх </a>
+					<?php else:?>
+						<li class="dropdown">
+          					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User <span class="caret"></span></a>
+          					<ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li class=""><?= $this->Html->link('Гарах',['controller' => 'users', 'action' => 'logout', '_full' => true]); ?></li>
+         					</ul>
+        				</li>
+        			<?php endif;?>
 				</ul>
 			</div>
-		</div>
 	</nav>	
 	
-	<div id="loginModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
+	<div id="loginModal" class="modal fade bs-example-modal-sm" role="dialog">
+		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -72,7 +91,7 @@
 										<div class="form-group">
 											<label for="inputEmail" class="col-sm-3 control-label">И-мэйл</label>
 											<div class="col-sm-9">
-												<?= $this->Form->input('email', array('label' => false, 
+												<?= $this->Form->input('username', array('label' => false, 
 													'class' => 'form-control', 'id' => 'inputEmail')); ?>
 											</div>
 										</div>
@@ -84,10 +103,11 @@
 											</div>
 										</div>
 										<div class="form-group">
-										    <div class="col-sm-offset-3 col-sm-3">
-										      	<?= $this->Form->input('remember', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
+										    <div class="col-sm-12">
+										      	<?= $this->Form->input('remember_me', array('type'=>'checkbox', 'label' => 'Намайг сана')); ?>
 										    </div>
 										</div>
+										
 									</div>	
 						</div>
 					<!--
@@ -109,24 +129,25 @@
 				
 				<div class="modal-footer">
 					<div class="row">
-						<div class="col-sm-offset-3 col-sm-6" style="text-align:center">
-							<?= $this->Form->button('Нэвртэх',array('class' => 'btn btn-primary')); ?>
+						<div class="col-xs-6 text-left">
+												<?= $this->Html->link(
+												    'Бүртгүүлэх',
+												    ['controller' => 'users', 'action' => 'register', '_full' => true]
+												);?>
+											</div>
+						<div class="col-xs-6 text-right">
+							<?= $this->Form->submit('Нэвртэх',array('class' => 'btn btn-primary')); ?>
 						</div>
-						<div class="col-sm-3" style="text-align:right">
-							<?= $this->Html->link(
-							    'Бүртгүүлэх',
-							    ['controller' => 'users', 'action' => 'register', '_full' => true]
-							);?>
-								<?= $this->Form->end()?>
-						</div>
+						<?= $this->Form->end()?>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-    
+	<?= $this->Flash->render() ?>
     <?= $this->fetch('content') ?>
     
+    <footer class="footer">
     <div class="navbar navbar-inverse navbar-static-bottom">
 		<div class="container">
 			<div class="navbar-text pull-left">
@@ -134,6 +155,8 @@
 			</div>
 		</div>
 	</div>
+
+	</footer>
     <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js');?>
     <?= $this->Html->script(['bootstrap.min']);?>
     

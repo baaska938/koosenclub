@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Zend\\Diactoros\\' => array($vendorDir . '/zendframework/zend-diactoros/src'),
+    'Xety\\Cake3CookieAuth\\' => array($vendorDir . '/xety/cake3-cookieauth/src'),
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
@@ -29,4 +30,5 @@ return array(
     'Aura\\Intl\\_Config\\' => array($vendorDir . '/aura/intl/config'),
     'App\\Test\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
+    'Acl\\' => array($vendorDir . '/cakephp/acl/src'),
 );

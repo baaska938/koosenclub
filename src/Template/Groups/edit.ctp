@@ -21,18 +21,5 @@
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
-
-    <?php foreach ($EditablePerms as $Acos) :?>
-            <?php foreach ($Acos as $controllerPath => $actions) :?>
-                <?php if (!empty($actions)) :?>
-                    <h4><?= $controllerPath ;?></h4>
-                    <?php foreach ($actions as $action) :?>
-                        <?php ($this->AclManager->checkGroup($group, 'App/'.$controllerPath.'/'.$action)) ? $val = 1 : $val = 0 ?>
-                        <?= $this->Form->label('App/'.$controllerPath.'/'.$action, $action);?>
-                        <?= $this->Form->select('App/'.$controllerPath.'/'.$action, [0 => 'No', 1 => 'Yes'], ['value' => $val]) ;?>
-                    <?php endforeach ;?>
-                <?php endif;?>
-            <?php endforeach ;?>
-        <?php endforeach ;?>
     <?= $this->Form->end() ?>
 </div>

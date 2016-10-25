@@ -27,9 +27,17 @@ use Cake\Event\Event;
  */
 class AppController extends Controller
 {
-    public function beforeFilter(Event $event){
-        $this->Auth->allow();
-    }
+    public $components = array(
+        'Auth' => [
+            'authenticate' => [
+                'Form',
+                'Xety/Cake3CookieAuth.Cookie'
+            ]
+        ],
+        'Cookie',
+        'Acl' => array('className' => 'Acl.Acl')
+    );
+    public $loggedIn = false;
     /**
      * Initialization hook method.
      *
@@ -46,10 +54,12 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
+
+
         //B* added
         //$this->loadComponent('Auth');
         
-        $this->loadComponent('Auth',[
+        /*$this->loadComponent('Auth',[
                 'authenticate' => [
                     'Form' => [
                         'fields' => [
@@ -62,7 +72,39 @@ class AppController extends Controller
                     'controller' => 'mylayout',
                     'action' => 'index'
                 ]
-            ]); 
+            ]); */
+
+            
+
+        $this->loadComponent('Auth', [
+            'authorize' => [
+                'Acl.Actions' => ['actionPath' => 'controllers/']
+            ],
+            'loginAction' => [
+                'plugin' => false,
+                'controller' => 'Users',
+                'action' => 'login'
+            ],
+            'loginRedirect' => [
+                'plugin' => false,
+                'controller' => 'mylayout',
+                'action' => 'index'
+            ],
+            'logoutRedirect' => [
+                'plugin' => false,
+                'controller' => 'Users',
+                'action' => 'login'
+            ],
+            'unauthorizedRedirect' => [
+                'controller' => 'Users',
+                'action' => 'login',
+                'prefix' => false
+            ],
+            'authError' => 'Энэ хэсэгт зөвхөн гишүүд нэвтрэх боломжтой!',
+            'flash' => [
+                'element' => 'error'
+            ]
+        ]);
         
     }
 
@@ -81,7 +123,46 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
+
+        $this->set('loggedIn', $this->Auth->user('id'));
     }
 
+    public function beforeFilter(Event $event){
+        //$this->Auth->allow();
+        
+        //Automaticaly Login.
+        if (!$this->Auth->user() && $this->Cookie->read('CookieAuth')) {
+            $user = $this->Auth->identify();
+            if ($user) {
+                $this->Auth->setUser($user);
+            } else {
+                $this->Cookie->delete('CookieAuth');
+            }
+        }
+
+
+        //If you want to update some fields, like the last_login_date, or last_login_ip, just do :
+        /*if (!$this->Auth->user() && $this->Cookie->read('CookieAuth')) {
+            $this->loadModel('Users');
+
+            $user = $this->Auth->identify();
+            if ($user) {
+                $this->Auth->setUser($user);
+
+                $user = $this->Users->newEntity($user);
+                $user->isNew(false);
+
+                //Last login date
+                $user->last_login = new Time();
+                //Last login IP
+                $user->last_login_ip = $this->request->clientIp();
+                //etc...
+
+                $this->Users->save($user);
+            } else {
+                $this->Cookie->delete('CookieAuth');
+            }
+        }*/
+    }
 
 }

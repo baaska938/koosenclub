@@ -31,7 +31,10 @@ class GroupsTableTest extends TestCase
         'app.events',
         'app.posts',
         'app.profiles',
-        'app.works'
+        'app.works',
+        'app.aros',
+        'app.acos',
+        'app.permissions'
     ];
 
     /**

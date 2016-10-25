@@ -5,10 +5,12 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Auth\DefaultPasswordHasher;
 
 /**
  * Users Model
  *
+ * @property \Cake\ORM\Association\BelongsTo $Groups
  * @property \Cake\ORM\Association\HasMany $Comments
  * @property \Cake\ORM\Association\HasMany $Educations
  * @property \Cake\ORM\Association\HasMany $Events
@@ -45,6 +47,10 @@ class UsersTable extends Table
 
         $this->addBehavior('Timestamp');
 
+        $this->belongsTo('Groups', [
+            'foreignKey' => 'group_id',
+            'joinType' => 'INNER'
+        ]);
         $this->hasMany('Comments', [
             'foreignKey' => 'user_id'
         ]);
@@ -63,6 +69,7 @@ class UsersTable extends Table
         $this->hasMany('Works', [
             'foreignKey' => 'user_id'
         ]);
+        $this->addBehavior('Acl.Acl', ['type' => 'requester']);
     }
 
     /**
@@ -78,11 +85,13 @@ class UsersTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->email('email')
-            ->allowEmpty('email');
+            ->requirePresence('username', 'create')
+            ->notEmpty('username')
+            ->add('username', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
 
         $validator
-            ->allowEmpty('password');
+            ->requirePresence('password', 'create')
+            ->notEmpty('password');
 
         return $validator;
     }
@@ -96,8 +105,16 @@ class UsersTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->isUnique(['email']));
+        $rules->add($rules->isUnique(['username']));
+        $rules->add($rules->existsIn(['group_id'], 'Groups'));
 
         return $rules;
+    }
+
+    public function beforeSave(\Cake\Event\Event $event, \Cake\ORM\Entity $entity, \ArrayObject $options)
+    {
+        $hasher = new DefaultPasswordHasher;
+        $entity->password = $hasher->hash($entity->password);
+        return true;
     }
 }

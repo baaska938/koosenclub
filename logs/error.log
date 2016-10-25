@@ -3442,3 +3442,823 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
 
 
 
+2016-09-04 02:26:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 13]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-04 02:26:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:17:42 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 34]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:17:42 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:24:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\koosenclub\src\Template\Users\login.ctp, line 36]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:24:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:33:01 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-05 23:33:01 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-05 23:34:59 Error: Fatal Error (1): Call to a member function write() on boolean in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 48]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:34:59 Error: [Cake\Error\FatalErrorException] Call to a member function write() on boolean
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:35:29 Error: Fatal Error (1): Call to a member function write() on boolean in [C:\xampp\htdocs\koosenclub\src\Controller\UsersController.php, line 48]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:35:29 Error: [Cake\Error\FatalErrorException] Call to a member function write() on boolean
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:47:21 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 37]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:47:21 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:47:54 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 37]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:47:54 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:47:55 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 37]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:47:55 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:48:33 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 37]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-05 23:48:33 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-05 23:51:07 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-05 23:51:07 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-05 23:51:28 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-05 23:51:28 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-05 23:52:15 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-05 23:52:15 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-05 23:52:35 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-05 23:52:35 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 00:01:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 56]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:01:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:01:58 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 56]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:01:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:33 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 39]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:34 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 39]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:35 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 39]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 50]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:39 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 50]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:39 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:02:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 47]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:02:50 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 00:11:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\koosenclub\src\Template\Mylayout\index.ctp, line 2]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 00:11:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 01:59:32 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 58]
+Request URL: /koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 01:59:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 02:06:48 Warning: Warning (2): link() expects parameter 2 to be string, array given in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+link - [internal], line ??
+include - APP/Template\Layout\mylayout.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:07:21 Warning: Warning (2): link() expects parameter 2 to be string, array given in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+link - [internal], line ??
+include - APP/Template\Layout\mylayout.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:07:52 Warning: Warning (2): link() expects parameter 2 to be string, array given in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+link - [internal], line ??
+include - APP/Template\Layout\mylayout.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:08:01 Warning: Warning (2): link() expects parameter 2 to be string, array given in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+link - [internal], line ??
+include - APP/Template\Layout\mylayout.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:08:19 Warning: Warning (2): link() expects parameter 2 to be string, array given in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 69]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+link - [internal], line ??
+include - APP/Template\Layout\mylayout.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 131
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:13:35 Warning: Warning (4096): Argument 1 passed to App\Controller\MylayoutController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\MylayoutController.php, line 8]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\MylayoutController::beforeFilter() - APP/Controller\MylayoutController.php, line 8
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:13:35 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:13:35 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:13:39 Warning: Warning (4096): Argument 1 passed to App\Controller\MylayoutController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Event\EventManager.php on line 421 and defined in [C:\xampp\htdocs\koosenclub\src\Controller\MylayoutController.php, line 8]
+Request URL: /koosenclub/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\MylayoutController::beforeFilter() - APP/Controller\MylayoutController.php, line 8
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 421
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE\src\Controller\Controller.php, line 497
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 99
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-06 02:13:39 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:13:39 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:21:02 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 138]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 02:21:02 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 138)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 02:21:41 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 56]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 02:21:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 02:22:16 Error: Fatal Error (1): Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn() in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 139]
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 02:22:17 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\Controller\Component\AuthComponent::loggedIn()
+Request URL: /koosenclub/
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 139)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 02:38:23 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:38:23 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:38:42 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:38:42 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:40:26 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:40:26 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:43:05 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-06 02:43:05 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-06 02:57:55 Error: Fatal Error (1): Class 'App\Controller\AuthComponent' not found in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 126]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/mylayout/question
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 02:57:55 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\AuthComponent' not found
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/mylayout/question
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 126)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-06 02:59:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\koosenclub\src\Template\Layout\mylayout.ctp, line 61]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/mylayout/question
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-06 02:59:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/mylayout/question
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-08 01:51:08 Warning: Warning (2): Creating default object from empty value in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 77]
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 77
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 79
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 82
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 51
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-09-08 01:51:08 Warning: Headers already sent in C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-09-08 01:51:08 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /koosenclub/users/login
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 C:\xampp\htdocs\koosenclub\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-09-08 02:02:13 Error: Fatal Error (1): Call to a member function read() on boolean in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 134]
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-08 02:02:13 Error: [Cake\Error\FatalErrorException] Call to a member function read() on boolean
+Request URL: /koosenclub/mylayout/question
+Referer URL: http://localhost:8082/koosenclub/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 134)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-09-08 02:02:18 Error: Fatal Error (1): Call to a member function read() on boolean in [C:\xampp\htdocs\koosenclub\src\Controller\AppController.php, line 134]
+Request URL: /koosenclub/mylayout/question
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-09-08 02:02:18 Error: [Cake\Error\FatalErrorException] Call to a member function read() on boolean
+Request URL: /koosenclub/mylayout/question
+Stack Trace:
+#0 C:\xampp\htdocs\koosenclub\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 134)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
