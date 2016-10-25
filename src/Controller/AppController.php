@@ -37,7 +37,7 @@ class AppController extends Controller
         'Cookie',
         'Acl' => array('className' => 'Acl.Acl')
     );
-
+    public $loggedIn = false;
     /**
      * Initialization hook method.
      *
@@ -53,6 +53,7 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+
 
 
         //B* added
@@ -72,6 +73,8 @@ class AppController extends Controller
                     'action' => 'index'
                 ]
             ]); */
+
+            
 
         $this->loadComponent('Auth', [
             'authorize' => [
@@ -120,14 +123,15 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
+
+        $this->set('loggedIn', $this->Auth->user('id'));
     }
 
     public function beforeFilter(Event $event){
         //$this->Auth->allow();
-
+        
         //Automaticaly Login.
         if (!$this->Auth->user() && $this->Cookie->read('CookieAuth')) {
-
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
@@ -135,6 +139,7 @@ class AppController extends Controller
                 $this->Cookie->delete('CookieAuth');
             }
         }
+
 
         //If you want to update some fields, like the last_login_date, or last_login_ip, just do :
         /*if (!$this->Auth->user() && $this->Cookie->read('CookieAuth')) {

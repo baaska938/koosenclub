@@ -3,7 +3,7 @@
 		<div class="col-sm-offset-1 col-sm-10"> 
 		<?= $this->Form->create()?>
 			<div class="col-sm-12"><h2>Нэвтрэх</h2></div>
-			<div class="col-sm-12" style="padding-bottom:20px"><h5>Бүртгүүлж амжаагүй бол <a href="#">энд</a> дарж бүртгүүлнэ үү!!</h5></div>
+			<div class="col-sm-12" style="padding-bottom:20px"><h5>Бүртгүүлж амжаагүй бол <a href="register">энд</a> дарж бүртгүүлнэ үү!!</h5></div>
 
 
 			<div>
@@ -11,7 +11,7 @@
 				<div class="form-group">
 					<label for="inputUsername" class="col-sm-12 control-label" style="padding-left:0px">Хэрэглэгчийн нэр</label>
 					<?= $this->Form->input('username', array('label' => false, 
-						'class' => 'form-control', 'id' => 'inputUsername')); ?>
+						'class' => 'form-control', 'id' => 'inputUsername', 'placeholder' => 'Username')); ?>
 				</div>
 			</div>
 
@@ -20,7 +20,7 @@
 				<div class="form-group">
 					<label for="inputPass" class="col-sm-12 control-label" style="padding-left:0px">Нууц үг</label>
 					<?= $this->Form->input('password', array('label' => false
-						, 'class' => 'form-control', 'id' => 'inputPass')); ?>
+						, 'class' => 'form-control', 'id' => 'inputPass', 'placeholder' => 'Password')); ?>
 				</div>
 			</div>
 			</div>
